@@ -5,3 +5,5 @@ Projeto 1 - Restaurante
 Projeto 2: Bicicletária 
 Projeto 3: Logo Portifolio Website - Site responsivel
 Projeto 4: Empresa de Yorgute 
+
+** Complementos de códigos em JavaScript e Jquery **
