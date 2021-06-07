@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Yogurt Company</title>
+
+   <!--This is Boostrap Css-->
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap" rel="stylesheet"> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+<body>
+    
+
+    <div class="container">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+            <div class="container-fluid">
+              <nav class="navbar navbar-light">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="/images/logo-dans-meat-yogurt.svg" alt="Dan´s meat yourgut" width="200" height="120">
+                  </a>
+                </div>
+              </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!---BUTTON DROP-DOWN-->
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 float-end">
+                  <li class="nav-item dropdown btn btn-outline-light me-4" style= width:120px;>
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Flavors
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Ham</a></li>
+                      <li><a class="dropdown-item" href="#">Beaf</a></li>
+                      <li><a class="dropdown-item" href="#">Chicken</a></li>
+                      <li><a class="dropdown-item" href="#">Fish</a></li>
+                    </ul>
+                     <!---BUTTON NORMAL-->
+                    <li class="nav-item btn btn-outline-light" style= width:120px;>
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!--Jumbotron-->
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-12 col-md-7 text-center tex-md-left my-5">
+                <h1 class="display-3 text-white drop-shadow">Thick & Creamy</h1>
+                <p class="lead">With real meat Chunks</p>
+                
+                <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">Pricing</a>
+                </p>
+                      
+              </div>
+              <div class="col-12 col-md-5">
+                <img src="/images/hero1.png" alt="Dan´s meat yourgut" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!--Founder Message-->
+
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img src="/images/headshot-dan.jpg" class="img-fluid rounded-start border-lg border-0" alt="Daniel Watt Scot-Meat founder">
+            </div>
+            <div class="col-12 col-md-8 bg-white p-5 d-flex align-items-center border border-dark rounded-end border-lg border-0">
+              <section>
+                <h2>Message from our Founder</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, maxime architecto? Vitae inventore non facere. Atque esse facere perspiciatis expedita ipsam consectetur aperiam. Aliquid aperiam harum est hic quibusdam quasi nihil voluptatum quis molestias vel aut ducimus iure vitae illum tempora, libero numquam non nostrum. Amet ullam cupiditate magni id ipsam odit voluptatibus culpa consectetur distinctio, ipsum vero necessitatibus mollitia?</p>
+              </section>
+            </div>
+          </div>
+
+          <!--Carousel-->
+          <div id="carouselExampleControls" class="carousel slide d-none d-sm-block carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/yogurt-1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/yogurt-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/yogurt-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <!--Cards-->
+        <div class="card-group row row-cols-1 row-cols-md-3 g-4 my-5">
+          <div class="card shadow" style="width: 18rem;">
+              <img class="card-img-top" src="/images/product1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card shadow" style="width: 18rem;">
+              <img class="card-img-top" src="/images/product2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card shadow" style="width: 18rem;">
+              <img class="card-img-top" src="/images/product3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+<!--This is a Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
